@@ -1,0 +1,125 @@
+:root {
+    --primary-color: #C87092;
+    --btn-selected: #FFBED7;
+    --btn-standard: #FFFDFD;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding: 30px;
+}
+
+.main-title {
+    color: #C87092;
+    font-family: IBM Plex Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+}
+
+.main-desc {
+    color: #494949;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.bees-section {
+    margin-bottom: 15px;
+}
+
+.bees-section label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.bees-section select {
+    width: 100%;
+    padding: 10px;
+
+}
+
+.month-sections {
+    width: 100%;
+}
+
+.month-sections label {
+    font-size: 12px;
+}
+
+.month-sections .all-months {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.month {
+    background: var(--btn-standard);
+    border: 0.552858px solid #D7D6D6;
+    padding: 6px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2.21143px 2.21143px rgba(0, 0, 0, 0.25);
+    margin-right: 5px;
+    font-size: 11px;
+}
+
+.flowers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.flowers .flower-item {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin: 5px 5px 50px 5px;
+    
+}
+
+.flowers .flower-item span {
+    font-size: 10px;
+}
+
+.flowers .flower-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pages .page-item {
+    background: var(--btn-standard);
+    box-shadow: 0px 2.1959px 2.1959px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    margin: 5px;
+}
+
+.selected {
+    background-color: var(--btn-selected) !important;
+}
+
+@media (min-width: 600px) {
+    
+}
